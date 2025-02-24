@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SRS Fashion</title>
+    <link rel="icon" href="logo.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <nav class="navbar">
+        <h1>SRS Fashion</h1>
+
+        <div class="navbar-links">
+            <p class="navbar-link"><a href="index.html">Home</a></p>
+            <p class="navbar-link"><a href="collection.html">Collections</a></p>
+            <p class="navbar-link"><a href="contact.html">Contacts</a></p>
+        </div>
+
+        <div class="navbar-menu-toggle" onclick="showNavbar()">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+    </nav>
+
+    <div class="side-navbar">
+        <p style="text-align: right;" onclick="closeNavbar()">
+            <i class="fa-solid fa-xmark"></i>
+        </p>
+
+        <div class="side-navbar-links">
+            <p class="navbar-link"><a href="index.html">Home</a></p>
+            <p class="navbar-link"><a href="collection.html">Collections</a></p>
+            <p class="navbar-link"><a href="contact.html">Contacts</a></p>
+        </div>
+    </div>
+
+    <div class="products-section">
+        <form class="products-search">
+            <input type="text" id="search" placeholder="Search">
+            <i class="fa-solid fa-magnifying-glass"></i>
+        </form>
+        <div class="products" id="products">
+            <div class="product-box">
+                <img src="white-shirt.webp" height="250px" width="250px">
+                <p>White Shirts</p>
+            </div>
+
+            <div class="product-box">
+                <img src="black-shirt.webp" height="250px" width="250px">
+                <p>Black Shirts</p>
+            </div>
+
+            <div class="product-box">
+                <img src="tshirt.avif" height="250px" width="250px">
+                <p>T - Shirts</p>
+            </div>
+
+            <div class="product-box">
+                <img src="phants.jpeg" height="250px" width="250px">
+                <p>Phants</p>
+            </div>
+
+            <div class="product-box">
+                <img src="shoes.jpeg" height="250px" width="250px">
+                <p>White Shoes</p>
+            </div>
+            
+            <div class="product-box">
+                <img src="watch.jpeg" height="250px" width="250px">
+                <p>branded Watch</p>
+            </div>    
+
+            <div class="product-box">
+                <img src="dhoti.jpg" height="250px" width="250px">
+                <p>Dhoti & Shirt</p>
+            </div>
+
+            <div class="product-box">
+                <img src="suti.jpeg" height="250px" width="250px">
+                <p>Suits</p>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="footer">
+        <div class="footer-container">
+            <div class="footer-box-1">
+                <h2 class="heading-text">SRS Fashion</h2>
+                <p>"At SRS Fashion, we bring you the latest trends and timeless styles. Enjoy new arrivals daily, fast shipping, and a satisfaction guarantee!"</p>
+                <p>📞 0431 - 98765478 || +91 7654897654</p>
+                <p>📧 srsfashion@gmail.com</p>
+                <div class="footer-icon-container">
+                    <i class="fa-brands fa-instagram" style="color: white;"></i>
+                    <i class="fa-brands fa-twitter" style="color: white;"></i>
+                    <i class="fa-brands fa-facebook" style="color: white;"></i>
+                </div>
+            </div>
+        </div>
+        <p>@ 2025 SRS Fashion.com </p>
+    </div>
+    <script src="collection.js"></script>
+</body>
+
+</html>
